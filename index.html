@@ -14,6 +14,19 @@
     <script src="js/com.js" type="text/javascript"></script>
     <link rel="icon" type="image/x-icon" href="imgs/LOGO.jpg">
 </head>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/68a6f2c80397411922edf71c/1j3628oph';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
 <body>
     <div id="home" class="banner_wrap">
@@ -176,59 +189,7 @@
 
     </div>
 </body>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/68a6f2c80397411922edf71c/1j3628oph';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 
-<script>
-    $(function() {
-        if ($(window).width() < 751) {
 
-        } else {
-
-        }
-    });
-</script>
-<script>
-    $(function() {
-        $(".Ewm_icon_btn").click(function() {
-            $(".cpm").addClass("dis-no");
-            $(".install_box ul").removeClass("active");
-        });
-        $(".group").on("click", ".download-item", function() {
-            if ($(this).hasClass("active")) {
-                $(this).removeClass("active");
-            } else {
-                $(this).addClass("active").siblings().removeClass("active");
-            }
-        });
-        // 显示下载教程
-        $(".demobox").on("click", "a", function() {
-            var iD = $(this).index()
-            var show = $(this).data("show")
-            $("." + show).removeClass("dis-no");
-            $(".install_nav li").eq(iD).addClass("active").siblings().removeClass("active");
-            $(".install_box ul").eq(iD).addClass("active").siblings().removeClass("active");
-        });
-        // 切换下载教程
-        $(".install_dow").on("click", ".install_nav li", function() {
-            $(this).addClass("active");
-            var iD = $(this).index()
-            $(".install_nav li").eq(iD).addClass("active").siblings().removeClass("active");
-            $(".install_box ul").eq(iD).addClass("active").siblings().removeClass("active");
-        });
-    });
-    $(".myFullPage .section.index").removeClass("active").addClass("active");
-</script>
 
 </html>
