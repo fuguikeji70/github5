@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>下载页面</title>
+    <link rel="icon" type="image/x-icon" href="imgs/LOGO.jpg">
+    <style>
+        /* 自定义背景图片样式 */
+        body {
+            background-image: url('./imgs/item1.jpg');
+            background-size: cover; /* 图片覆盖整个背景 */
+            background-position: center; /* 图片居中显示 */
+            background-repeat: no-repeat; /* 图片不重复 */
+            background-attachment: fixed; /* 背景固定，滚动时不移动 */
+        }
+        /* 为了让内容更清晰，可给内容区域添加半透明背景 */
+       .content-container {
+            background-color: rgba(255, 255, 255, 0.8); /* 白色半透明背景 */
+            padding: 2rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col items-center justify-center">
+    <div class="content-container w-full max-w-md">
+        <h1 class="text-3xl font-bold mb-8 text-center">荣耀APP下载</h1>
+        <div class="flex flex-col gap-4">
+            <a href="https://www.pgyer.com/ryapp7" class="bg-blue-400 text-white py-3 px-6 rounded-md text-center hover:bg-blue-500 transition-colors">
+                安卓APP下载
+            </a>
+            <a href="https://www.pgyer.com/ryapp6" class="bg-blue-400 text-white py-3 px-6 rounded-md text-center hover:bg-blue-500 transition-colors">
+                苹果APP下载
+            </a>
+            <a href="https://www.guluapp.cn/ryapp" class="bg-blue-400 text-white py-3 px-6 rounded-md text-center hover:bg-blue-500 transition-colors">
+                安卓苹果通用下载
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
